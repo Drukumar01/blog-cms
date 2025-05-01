@@ -29,16 +29,16 @@ UI screenshots (both desktop and mobile views) are included in the `screenshots/
    git clone https://github.com/YourUsername/blog-cms.git
    cd blog-cms
 
-2. Install PHP dependencies
+2. Install PHP dependencies,
 composer install
 
 4. Copy .env file and generate app key
-cp .env.example .env
+cp .env.example .env,
 php artisan key:generate
 
 5. Setup your database
-Open XAMPP and start MySQL.
-Create a database (e.g., blog-cms) in phpMyAdmin.
+Open XAMPP and start MySQL,
+Create a database (e.g., blog-cms) in phpMyAdmin,
 Import SQL file located at: mysql_database_file/blog-cms.sql
 
 6. Update .env file
@@ -50,10 +50,10 @@ DB_DATABASE=blog_cms
 DB_USERNAME=root
 DB_PASSWORD=
 
-7. Create symbolic link for storage (if images used)
+7. Create symbolic link for storage (if images used),
 php artisan storage:link
 
-8. Serve the application
+8. Serve the application,
 php artisan serve
 
 🌐 Visit the App
