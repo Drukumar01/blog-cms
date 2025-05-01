@@ -40,21 +40,14 @@ cd blog-cms
 composer install
 ```
 
-### 3. Install front-end dependencies (Optional for styling)
-
-```bash
-npm install
-npm run dev
-```
-
-### 4. Copy `.env` file and generate app key
+### 3. Copy `.env` file and generate app key
 
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-### 5. Setup your database
+### 4. Setup your database
 
 - Open **XAMPP** and start **MySQL**.
 - Create a database (e.g., `blog_cms`) using **phpMyAdmin**.
@@ -63,7 +56,7 @@ php artisan key:generate
   mysql_database_file/blog-cms.sql
   ```
 
-### 6. Update your `.env` file
+### 5. Update your `.env` file
 
 ```env
 DB_CONNECTION=mysql
@@ -74,13 +67,13 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### 7. Create symbolic link for storage (if images are used)
+### 6. Create symbolic link for storage (if images are used)
 
 ```bash
 php artisan storage:link
 ```
 
-### 8. Serve the application
+### 7. Serve the application
 
 ```bash
 php artisan serve
