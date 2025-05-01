@@ -29,10 +29,10 @@ UI screenshots (both desktop and mobile views) are included in the `screenshots/
    git clone https://github.com/YourUsername/blog-cms.git
    cd blog-cms
 
-2. Install PHP dependencies,
+2. Install PHP dependencies:
 composer install
 
-4. Copy .env file and generate app key
+4. Copy .env file and generate app key:
 cp .env.example .env,
 php artisan key:generate
 
