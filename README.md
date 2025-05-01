@@ -91,7 +91,7 @@ php artisan serve
 
 ## Submission Checklist
 
-- [x] Laravel project hosted on GitHub  
-- [x] UI screenshots included (desktop + mobile)  
-- [x] MySQL `.sql` file included (for XAMPP) Folder name mysql_database_file/blog-cms 
-- [x] Clear project setup steps in `README.md`
+- Laravel project hosted on GitHub  
+- UI screenshots included (desktop + mobile)  
+- MySQL `.sql` file included (for XAMPP) Folder name mysql_database_file/blog-cms 
+- Clear project setup steps in `README.md`
