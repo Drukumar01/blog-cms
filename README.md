@@ -50,7 +50,7 @@ php artisan key:generate
 ### 4. Setup your database
 
 - Open **XAMPP** and start **MySQL**.
-- Create a database (e.g., `blog_cms`) using **phpMyAdmin**.
+- Create a database (e.g., `blog-cms`) using **phpMyAdmin**.
 - Import the SQL file located at:
   ```
   mysql_database_file/blog-cms.sql
