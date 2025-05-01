@@ -30,7 +30,7 @@ UI screenshots (both desktop and mobile views) are included in the `screenshots/
 ### 1. Clone or unzip the project
 
 ```bash
-git clone https://github.com/YourUsername/blog-cms.git
+git clone https://github.com/Drukumar01/blog-cms.git
 cd blog-cms
 ```
 
