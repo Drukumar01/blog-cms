@@ -1,4 +1,4 @@
-# Simple Blog CMS UI (Laravel)
+# Simple Blog CMS UI
 
 This is a simple front-end blog CMS UI built using Laravel Blade and Bootstrap. The project includes:
 
@@ -93,5 +93,5 @@ php artisan serve
 
 - [x] Laravel project hosted on GitHub  
 - [x] UI screenshots included (desktop + mobile)  
-- [x] MySQL `.sql` file included (for XAMPP)  
+- [x] MySQL `.sql` file included (for XAMPP) Folder name mysql_database_file/blog-cms 
 - [x] Clear project setup steps in `README.md`
