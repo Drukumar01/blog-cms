@@ -17,9 +17,8 @@ UI screenshots (both desktop and mobile views) are included in the `screenshots/
 
 ## Requirements
 
-- PHP >= 8.1  
-- Composer  
-- Node.js & npm  
+- PHP >= 8.2
+- Composer   
 - MySQL (via XAMPP)  
 - Laravel 10+  
 
